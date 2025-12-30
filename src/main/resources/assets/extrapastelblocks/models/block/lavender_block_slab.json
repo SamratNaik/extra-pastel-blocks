@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "extrapastelblocks:block/lavender_block",
+    "top": "extrapastelblocks:block/lavender_block",
+    "side": "extrapastelblocks:block/lavender_block"
+  }
+}

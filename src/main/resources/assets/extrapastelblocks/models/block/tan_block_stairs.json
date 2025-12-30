@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "extrapastelblocks:block/tan_block",
+    "top": "extrapastelblocks:block/tan_block",
+    "side": "extrapastelblocks:block/tan_block"
+  }
+}

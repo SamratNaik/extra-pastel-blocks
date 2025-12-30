@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "extrapastelblocks:block/charcoal_block",
+    "top": "extrapastelblocks:block/charcoal_block",
+    "side": "extrapastelblocks:block/charcoal_block"
+  }
+}

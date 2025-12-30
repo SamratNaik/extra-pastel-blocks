@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "extrapastelblocks",
+	"version": "${version}",
+	"name": "Extra Pastel Blocks",
+	"description": "Adds a collection of clean, solid pastel-colored building blocks for builders.",
+	"authors": [
+		"SamFX"
+	],
+	"contact": {
+		"sources": "https://github.com/SamFX/ExtraPastelBlocks"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sam.extrapastelblocks.ExtraPastelBlocks"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

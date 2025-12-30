@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "extrapastelblocks:block/lavender_block_slab" },
+    "type=top": { "model": "extrapastelblocks:block/lavender_block_slab_top" },
+    "type=double": { "model": "extrapastelblocks:block/lavender_block" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "extrapastelblocks:block/rust_block",
+    "top": "extrapastelblocks:block/rust_block",
+    "side": "extrapastelblocks:block/rust_block"
+  }
+}

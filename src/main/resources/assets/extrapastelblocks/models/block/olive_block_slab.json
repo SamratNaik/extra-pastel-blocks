@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "extrapastelblocks:block/olive_block",
+    "top": "extrapastelblocks:block/olive_block",
+    "side": "extrapastelblocks:block/olive_block"
+  }
+}

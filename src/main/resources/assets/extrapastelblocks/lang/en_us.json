@@ -1,0 +1,112 @@
+{
+  "itemGroup.extrapastelblocks.extra_pastel_blocks": "Extra Pastels",
+
+  "block.extrapastelblocks.chalk_white_block": "Chalk White Block",
+  "block.extrapastelblocks.ivory_block": "Ivory Block",
+  "block.extrapastelblocks.cream_block": "Cream Block",
+  "block.extrapastelblocks.warm_beige_block": "Warm Beige Block",
+  "block.extrapastelblocks.cool_beige_block": "Cool Beige Block",
+
+  "block.extrapastelblocks.light_gray_block": "Light Gray Block",
+  "block.extrapastelblocks.ash_gray_block": "Ash Gray Block",
+  "block.extrapastelblocks.stone_gray_block": "Stone Gray Block",
+  "block.extrapastelblocks.slate_gray_block": "Slate Gray Block",
+  "block.extrapastelblocks.charcoal_block": "Charcoal Block",
+
+  "block.extrapastelblocks.soft_sand_block": "Soft Sand Block",
+  "block.extrapastelblocks.tan_block": "Tan Block",
+  "block.extrapastelblocks.oak_brown_block": "Oak Brown Block",
+  "block.extrapastelblocks.walnut_brown_block": "Walnut Brown Block",
+  "block.extrapastelblocks.dark_brown_block": "Dark Brown Block",
+
+  "block.extrapastelblocks.soft_red_block": "Soft Red Block",
+  "block.extrapastelblocks.soft_clay_block": "Soft Clay Block",
+  "block.extrapastelblocks.rust_block": "Rust Block",
+  "block.extrapastelblocks.burnt_orange_block": "Burnt Orange Block",
+  "block.extrapastelblocks.peach_block": "Peach Block",
+
+  "block.extrapastelblocks.mint_block": "Mint Block",
+  "block.extrapastelblocks.sage_block": "Sage Block",
+  "block.extrapastelblocks.olive_block": "Olive Block",
+  "block.extrapastelblocks.teal_block": "Teal Block",
+  "block.extrapastelblocks.deep_teal_block": "Deep Teal Block",
+
+  "block.extrapastelblocks.lavender_block": "Lavender Block",
+  "block.extrapastelblocks.soft_pink_block": "Soft Pink Block",
+  "block.extrapastelblocks.magenta_block": "Magenta Block",
+  "block.extrapastelblocks.soft_blue_block": "Soft Blue Block",
+  "block.extrapastelblocks.deep_blue_block": "Deep Blue Block",
+
+  "block.extrapastelblocks.chalk_white_block_stairs": "Chalk White Stairs",
+  "block.extrapastelblocks.ivory_block_stairs": "Ivory Stairs",
+  "block.extrapastelblocks.cream_block_stairs": "Cream Stairs",
+  "block.extrapastelblocks.warm_beige_block_stairs": "Warm Beige Stairs",
+  "block.extrapastelblocks.cool_beige_block_stairs": "Cool Beige Stairs",
+
+  "block.extrapastelblocks.light_gray_block_stairs": "Light Gray Stairs",
+  "block.extrapastelblocks.ash_gray_block_stairs": "Ash Gray Stairs",
+  "block.extrapastelblocks.stone_gray_block_stairs": "Stone Gray Stairs",
+  "block.extrapastelblocks.slate_gray_block_stairs": "Slate Gray Stairs",
+  "block.extrapastelblocks.charcoal_block_stairs": "Charcoal Stairs",
+
+  "block.extrapastelblocks.soft_sand_block_stairs": "Soft Sand Stairs",
+  "block.extrapastelblocks.tan_block_stairs": "Tan Stairs",
+  "block.extrapastelblocks.oak_brown_block_stairs": "Oak Brown Stairs",
+  "block.extrapastelblocks.walnut_brown_block_stairs": "Walnut Brown Stairs",
+  "block.extrapastelblocks.dark_brown_block_stairs": "Dark Brown Stairs",
+
+  "block.extrapastelblocks.soft_red_block_stairs": "Soft Red Stairs",
+  "block.extrapastelblocks.soft_clay_block_stairs": "Soft Clay Stairs",
+  "block.extrapastelblocks.rust_block_stairs": "Rust Stairs",
+  "block.extrapastelblocks.burnt_orange_block_stairs": "Burnt Orange Stairs",
+  "block.extrapastelblocks.peach_block_stairs": "Peach Stairs",
+
+  "block.extrapastelblocks.mint_block_stairs": "Mint Stairs",
+  "block.extrapastelblocks.sage_block_stairs": "Sage Stairs",
+  "block.extrapastelblocks.olive_block_stairs": "Olive Stairs",
+  "block.extrapastelblocks.teal_block_stairs": "Teal Stairs",
+  "block.extrapastelblocks.deep_teal_block_stairs": "Deep Teal Stairs",
+
+  "block.extrapastelblocks.lavender_block_stairs": "Lavender Stairs",
+  "block.extrapastelblocks.soft_pink_block_stairs": "Soft Pink Stairs",
+  "block.extrapastelblocks.magenta_block_stairs": "Magenta Stairs",
+  "block.extrapastelblocks.soft_blue_block_stairs": "Soft Blue Stairs",
+  "block.extrapastelblocks.deep_blue_block_stairs": "Deep Blue Stairs",
+
+  "block.extrapastelblocks.chalk_white_block_slab": "Chalk White Slab",
+  "block.extrapastelblocks.ivory_block_slab": "Ivory Slab",
+  "block.extrapastelblocks.cream_block_slab": "Cream Slab",
+  "block.extrapastelblocks.warm_beige_block_slab": "Warm Beige Slab",
+  "block.extrapastelblocks.cool_beige_block_slab": "Cool Beige Slab",
+
+  "block.extrapastelblocks.light_gray_block_slab": "Light Gray Slab",
+  "block.extrapastelblocks.ash_gray_block_slab": "Ash Gray Slab",
+  "block.extrapastelblocks.stone_gray_block_slab": "Stone Gray Slab",
+  "block.extrapastelblocks.slate_gray_block_slab": "Slate Gray Slab",
+  "block.extrapastelblocks.charcoal_block_slab": "Charcoal Slab",
+
+  "block.extrapastelblocks.soft_sand_block_slab": "Soft Sand Slab",
+  "block.extrapastelblocks.tan_block_slab": "Tan Slab",
+  "block.extrapastelblocks.oak_brown_block_slab": "Oak Brown Slab",
+  "block.extrapastelblocks.walnut_brown_block_slab": "Walnut Brown Slab",
+  "block.extrapastelblocks.dark_brown_block_slab": "Dark Brown Slab",
+
+  "block.extrapastelblocks.soft_red_block_slab": "Soft Red Slab",
+  "block.extrapastelblocks.soft_clay_block_slab": "Soft Clay Slab",
+  "block.extrapastelblocks.rust_block_slab": "Rust Slab",
+  "block.extrapastelblocks.burnt_orange_block_slab": "Burnt Orange Slab",
+  "block.extrapastelblocks.peach_block_slab": "Peach Slab",
+
+  "block.extrapastelblocks.mint_block_slab": "Mint Slab",
+  "block.extrapastelblocks.sage_block_slab": "Sage Slab",
+  "block.extrapastelblocks.olive_block_slab": "Olive Slab",
+  "block.extrapastelblocks.teal_block_slab": "Teal Slab",
+  "block.extrapastelblocks.deep_teal_block_slab": "Deep Teal Slab",
+
+  "block.extrapastelblocks.lavender_block_slab": "Lavender Slab",
+  "block.extrapastelblocks.soft_pink_block_slab": "Soft Pink Slab",
+  "block.extrapastelblocks.magenta_block_slab": "Magenta Slab",
+  "block.extrapastelblocks.soft_blue_block_slab": "Soft Blue Slab",
+  "block.extrapastelblocks.deep_blue_block_slab": "Deep Blue Slab"
+
+}

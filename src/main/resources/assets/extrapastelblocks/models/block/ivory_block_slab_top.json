@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "extrapastelblocks:block/ivory_block",
+    "top": "extrapastelblocks:block/ivory_block",
+    "side": "extrapastelblocks:block/ivory_block"
+  }
+}
