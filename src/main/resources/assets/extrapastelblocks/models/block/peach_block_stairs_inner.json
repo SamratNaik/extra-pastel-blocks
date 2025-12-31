@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "extrapastelblocks:block/peach_block",
+    "top": "extrapastelblocks:block/peach_block",
+    "side": "extrapastelblocks:block/peach_block"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "extrapastelblocks:block/magenta_block",
+    "top": "extrapastelblocks:block/magenta_block",
+    "side": "extrapastelblocks:block/magenta_block"
+  }
+}

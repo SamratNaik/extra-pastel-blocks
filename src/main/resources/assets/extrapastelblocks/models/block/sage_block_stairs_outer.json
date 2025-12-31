@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "extrapastelblocks:block/sage_block",
+    "top": "extrapastelblocks:block/sage_block",
+    "side": "extrapastelblocks:block/sage_block"
+  }
+}

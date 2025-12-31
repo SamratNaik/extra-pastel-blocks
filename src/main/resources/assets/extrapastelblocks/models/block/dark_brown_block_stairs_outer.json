@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "extrapastelblocks:block/dark_brown_block",
+    "top": "extrapastelblocks:block/dark_brown_block",
+    "side": "extrapastelblocks:block/dark_brown_block"
+  }
+}
