@@ -1,6 +1,7 @@
 package com.sam.extrapastelblocks;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.registry.Registries;
 
 public class ExtraPastelBlocks implements ModInitializer {
 
@@ -10,5 +11,7 @@ public class ExtraPastelBlocks implements ModInitializer {
     public void onInitialize() {
         ModBlocks.register();
         ModItemGroup.register();
+
+
     }
 }

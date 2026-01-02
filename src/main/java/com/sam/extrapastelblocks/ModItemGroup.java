@@ -12,22 +12,24 @@ public class ModItemGroup {
 
     public static final ItemGroup EXTRA_PASTEL_BLOCKS = Registry.register(
             Registries.ITEM_GROUP,
-            new Identifier(ExtraPastelBlocks.MOD_ID, "extra_pastel_blocks"),
+            Identifier.of(ExtraPastelBlocks.MOD_ID, "extra_pastel_blocks"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(
-                            ModBlocks.getAllBlocks().values().iterator().next()
+                            Registries.ITEM.get(
+                                    Identifier.of(ExtraPastelBlocks.MOD_ID, "chalk_white_block")
+                            )
                     ))
-                    .displayName(Text.translatable(
-                            "itemGroup.extrapastelblocks.extra_pastel_blocks"
-                    ))
+                    .displayName(Text.translatable("itemgroup.extrapastelblocks"))
                     .entries((context, entries) -> {
-                        ModBlocks.getAllBlocks().values().forEach(entries::add);
+
+                        // (recommended): only base blocks
+                        ModBlocks.getBaseBlocks()
+                                .forEach(block -> entries.add(block.asItem()));
+
 
                     })
                     .build()
     );
 
-    public static void register() {
-        // forces class loading
-    }
+    public static void register() {}
 }
