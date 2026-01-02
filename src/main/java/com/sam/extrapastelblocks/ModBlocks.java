@@ -12,13 +12,12 @@ import java.util.Map;
 
 public class ModBlocks {
 
-    // Base blocks
+    // Base blocks only
     private static final Map<String, Block> BLOCKS = new LinkedHashMap<>();
-    // Stairs & slabs (also added to creative)
+    // Base + stairs + slabs (for creative tab)
     private static final Map<String, Block> EXTRA_BLOCKS = new LinkedHashMap<>();
 
     static {
-        // ===== BASE BLOCKS =====
         registerBase("chalk_white_block");
         registerBase("ivory_block");
         registerBase("cream_block");
@@ -59,25 +58,44 @@ public class ModBlocks {
     /* ================= REGISTRATION ================= */
 
     private static void registerBase(String name) {
-        Block base = new Block(AbstractBlock.Settings.copy(Blocks.STONE));
+
+        // Base block
+        Block base = new Block(
+                AbstractBlock.Settings
+                        .copy(Blocks.STONE)
+                        .strength(0.1f,6f) // 👈 stone-like hardness & resistance
+        );
+
         register(name, base);
         BLOCKS.put(name, base);
 
-        // stairs & slab
-        register(name + "_stairs", new StairsBlock(base.getDefaultState(), AbstractBlock.Settings.copy(base)));
-        register(name + "_slab", new SlabBlock(AbstractBlock.Settings.copy(base)));
+        // Stairs
+        register(
+                name + "_stairs",
+                new StairsBlock(
+                        base.getDefaultState(),
+                        AbstractBlock.Settings
+                                .copy(base)
+
+                )
+        );
+
+        // Slab
+        register(
+                name + "_slab",
+                new SlabBlock(
+                        AbstractBlock.Settings
+                                .copy(base)
+
+                )
+        );
     }
 
     private static void register(String name, Block block) {
-        Registry.register(Registries.BLOCK,
-                new Identifier(ExtraPastelBlocks.MOD_ID, name),
-                block
-        );
+        Identifier id = new Identifier(ExtraPastelBlocks.MOD_ID, name);
 
-        Registry.register(Registries.ITEM,
-                new Identifier(ExtraPastelBlocks.MOD_ID, name),
-                new BlockItem(block, new Item.Settings())
-        );
+        Registry.register(Registries.BLOCK, id, block);
+        Registry.register(Registries.ITEM, id, new BlockItem(block, new Item.Settings()));
 
         EXTRA_BLOCKS.put(name, block);
     }
